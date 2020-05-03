@@ -194,7 +194,7 @@ return 0;
 Instead, malloc has garbage values. It means that calloc is zero initialization but malloc does not initialization. However, malloc is faster than calloc.
 Another method is realloc. It means re-allocation. It is used to update values in malloc, calloc, or realloc. This method increase or decrease memory allocation.If there is no enough memory, it returns null. However, old memory blocks is not released. 
 
-4.The size of the character string is 10. but we only wrote a part of 5. Then it automatically sets the last character to '/ 0'. It does this so that it understands where the last character ends. In short, the last character is / 0 automatically set which is null character.For example, we have char array; char arr [10] = "Hello".It looks like "Hello/0"
+4.The size of the character array is 10. but we only wrote a part of 5. Then it automatically sets the last character to '/ 0'. It does this so that it understands where the last character ends. In short, the last character is / 0 automatically set which is null character.For example, we have char array; char arr [10] = "Hello".It looks like "Hello/0"
 
 
 
