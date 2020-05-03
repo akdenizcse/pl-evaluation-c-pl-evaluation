@@ -1,7 +1,6 @@
 Name of the language- C
       C is one of the most popular programming languages. Most of the users who interest in programming are wondering why this programming language is called just a single alphabet letter. This section is about why this programming language why it is C, not other letters of the alphabet.   
       Why C? Because C comes after B due to the alphabetical order. The author of "C" had already a programming language called B. Some features of B were inadequate and less understandable and less readable. Therefore, the author of the language decided to make the language simpler, understandable, and readable. Therefore, the author of the language called this reorganized language C. Hence, C is a kind of compiled version of B. If you curious about B, "B" is derived from BCPL(Basic Combined Programming Language) which was not available at that time.
-
 Authors of C
      "C" has supported structured programming and recursion. And, it has a static type checking that type of variable is known at compile-time instead of run-time. It is written by  Dennis Ritchie and Ken Thompson.
 Dennis MacAlistair Ritchie- is an American scientist. He is known for creating "B", "C", and UNIX.
@@ -18,7 +17,7 @@ main( ) {
    sum= a+b+c; /*note that delimiting with curly brackets inherited from BCPL and B is a typeless language,arithmetic on characters is quite legal */
    putchar(’*n’);/* "*n" is new line character*/
    putnumb(sum);/* putnumb is a library function of one argument, print a number on the terminal*/ }
-   ------------------------------------------------------------------------------------------------------------- 
+ 
       B's semantic in PDP-7 was sufficient for them. However, they were facing some problems in PDP-11. They decided to change B's semantic model. Also, they had 3 reasons to reorganize "B". The first one is the character handling mechanism which is inherited with a few changes from BCPL. Second is floating-point arithmetic(the original PDP-11 didn't provide floating-point arithmetic. But, the manufacturer said that it would be available soon.). Third one is language rules about pointers. "B" is a typeless programming language that means it has only one data type(e.g. only one data type exists and all data stored in the same type). Authors realized that a typing scheme was necessary to handle charactering, byte addressing, and floating-point. Thereafter, Dennis Ritchie has added data typing for variables and rewrote the compiler for PDP-11 in 1971.  Between 1971 and 1972, rearranged B was named New B (NB), later called "C". 
     In 1973, C became strong enough. At first, Unix was originally written in the assembly language PDP-11/20. After that,  most of the kernel of UNIX was rewritten in "C". Thus, UNIX became one of the first operating systems in which the kernel was not written in an assembly language. 
     On the other hand, the C language was widely used outside of the Bell Lab. So, there was a need for a resource on how to use "C". Thereafter, the book called "C programming language " published which was written by Brian Kernighan and Dennis Ritchie. So, it became a great resource for "C". Later, this book was called K&R(initials letters for the name of authors) by the programmers of C. It is also known as the holy book of the C language.
